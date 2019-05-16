@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://17hualang.com/register/main#/index -->
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>省着花-财富管理专家</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <meta name="keywords" content="省着花,全资产记账,P2P记账,股票,基金,舆情监控,回款提醒,资产分析,智能投顾,记账app,自动记账">
+  <meta name="description"
+    content="省着花是一款非常便捷、智能的全资产记账管理软件。支持P2P网贷股票基金等多种资产自动同步记账，免费提供舆情监控、回款提醒等服务，以及资产分析与智能投顾建议，还有理财社区、理财红包等。">
+  <style type="text/css">
+    blockquote,
+    body,
+    button,
+    dd,
+    dl,
+    dt,
+    fieldset,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    input,
+    legend,
+    li,
+    ol,
+    p,
+    pre,
+    td,
+    textarea,
+    th,
+    ul {
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    }
+
+    body,
+    button,
+    input,
+    select,
+    textarea {
+      font: normal 100% microsoft yahei, Helvetica, Arial, sans-serif;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 100%
+    }
+
+    address,
+    cite,
+    dfn,
+    em,
+    var {
+      font-style: normal
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: courier new, courier, monospace
+    }
+
+    small {
+      font-size: 12px
+    }
+
+    ol,
+    ul {
+      list-style: none
+    }
+
+    a {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    }
+
+    a,
+    a:hover {
+      text-decoration: none
+    }
+
+    sup {
+      vertical-align: text-top
+    }
+
+    sub {
+      vertical-align: text-bottom
+    }
+
+    legend {
+      color: #000
+    }
+
+    fieldset,
+    img {
+      border: 0
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font-size: 100%
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0
+    }
+
+    article,
+    aside,
+    audio,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    mark,
+    menu,
+    nav,
+    section,
+    summary,
+    time,
+    video {
+      display: block;
+      margin: 0;
+      padding: 0
+    }
+
+    img {
+      width: 100%
+    }
+
+    .out {
+      font-size: 0
+    }
+
+    .in {
+      display: inline-block;
+      font-size: 14px
+    }
+
+    .clearfix:after {
+      content: ".";
+      clear: both;
+      display: block;
+      height: 0;
+      visibility: hidden;
+      line-height: 0
+    }
+
+    .clearfix {
+      *zoom: 1
+    }
+
+    .fl {
+      float: left
+    }
+
+    .fr {
+      float: right
+    }
+
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow: auto !important;
+      -webkit-text-size-adjust: none
+    }
+  </style>
+  <style type="text/css">
+    .header-padding {
+      height: 72px
+    }
+
+    .warp {
+      width: 1000px;
+      margin: 0 auto;
+      height: inherit;
+      position: relative
+    }
+
+    .page-content {
+      min-height: 785px;
+      background: #f9f9f9
+    }
+
+    .bg-cl {
+      position: absolute;
+      width: 1280px;
+      z-index: 20;
+      opacity: .5;
+      left: 0;
+      right: 0;
+      margin: 0 auto
+    }
+
+    .menu-box {
+      width: 100%;
+      background: rgba(52, 54, 61, .95);
+      height: 80px;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 3
+    }
+
+    .menu-box .logo {
+      width: 130px;
+      height: 100%
+    }
+
+    .menu-box .logo img {
+      margin-top: 26px;
+      height: 34px;
+      width: auto
+    }
+
+    .menu-box .menu {
+      margin-left: 42px
+    }
+
+    .menu-box .menu>li {
+      float: left;
+      color: #fff;
+      text-align: center;
+      line-height: 80px;
+      cursor: pointer;
+      position: relative;
+      font-size: 16px;
+      opacity: .6;
+      margin-left: 68px;
+      font-weight: 600
+    }
+
+    .menu-box .menu>li a {
+      display: block;
+      color: #fff
+    }
+
+    .menu-box .menu>li.act:after {
+      width: 24px
+    }
+
+    .menu-box .menu>li.act {
+      font-size: 16px;
+      font-weight: 600;
+      opacity: 1
+    }
+
+    .menu-box .menu>li.act:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 5px;
+      height: 2px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background: #deb76d;
+      z-index: -1;
+      top: 60px
+    }
+
+    .menu-box .menu>li.hover {
+      font-size: 16px;
+      opacity: 1
+    }
+
+    .menu-box .login {
+      width: 72px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 100px;
+      background: #deb76d;
+      text-align: center;
+      right: 69px;
+      top: 34px
+    }
+
+    .menu-box .login,
+    .menu-box .register {
+      position: absolute;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer
+    }
+
+    .menu-box .register {
+      top: 39px;
+      right: -68px;
+      margin: 0 auto;
+      line-height: 22px;
+      width: 100px
+    }
+
+    .menu-box .phone {
+      color: #999;
+      text-align: center;
+      right: 32px;
+      font-size: 12px
+    }
+
+    .menu-box .logout,
+    .menu-box .phone {
+      position: absolute;
+      width: 100px;
+      top: 40px
+    }
+
+    .menu-box .logout {
+      right: -68px;
+      color: #fff;
+      margin: 0 auto;
+      cursor: pointer
+    }
+
+    .floatw {
+      position: fixed;
+      text-align: right;
+      right: 15px;
+      top: 700px;
+      font-size: 0;
+      z-index: 20
+    }
+
+    .floatw img {
+      width: 60px;
+      height: 60px;
+      cursor: pointer
+    }
+
+    .floatQrcode {
+      position: fixed;
+      width: 130px !important;
+      height: 130px !important;
+      right: 85px;
+      top: 630px
+    }
+  </style>
+  <script type="text/javascript" charset="utf-8" async="" src="https://17hualang.com/Upload/image/main/1.1db3335.js"></script>
+  <style type="text/css">
+    .media[data-v-70a7d736] {
+      padding: 50px 0
+    }
+
+    .media-menu[data-v-70a7d736] {
+      width: 180px;
+      font-size: 14px;
+      background: #fff
+    }
+
+    .media-menu li[data-v-70a7d736] {
+      width: inherit;
+      height: 56px;
+      line-height: 56px;
+      color: #666;
+      position: relative;
+      text-indent: 62px;
+      cursor: pointer
+    }
+
+    .media-menu li a[data-v-70a7d736] {
+      color: #666;
+      display: block
+    }
+
+    .media-menu li.act[data-v-70a7d736],
+    .media-menu li.act a[data-v-70a7d736] {
+      color: #deb76d
+    }
+
+    .media-menu li.act[data-v-70a7d736]:after {
+      content: "";
+      display: inline-block;
+      height: 32px;
+      width: 4px;
+      background: #deb76d;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto
+    }
+
+    .list[data-v-70a7d736] {
+      display: inline-block;
+      width: 754px;
+      height: 555px;
+      padding: 32px 40px;
+      background: #fff;
+      margin-left: 66px;
+      text-align: center
+    }
+
+    .current-title[data-v-70a7d736] {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333;
+      margin-left: 66px;
+      padding-bottom: 18px;
+      font-weight: 700
+    }
+
+    .dot[data-v-70a7d736] {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: #deb76d;
+      border-radius: 6px;
+      margin-right: 5px;
+      vertical-align: middle
+    }
+
+    .media-news-list-box li[data-v-70a7d736] {
+      font-size: 15px;
+      color: #666;
+      text-align: left;
+      position: relative;
+      cursor: pointer;
+      line-height: 40px;
+      border-bottom: 1px solid hsla(0, 0%, 82%, .3)
+    }
+
+    .media-news-list-box a[data-v-70a7d736]:hover {
+      color: #deb76d
+    }
+
+    .media-news-list-box li a[data-v-70a7d736] {
+      color: #666
+    }
+
+    .media-news-list-box li div[data-v-70a7d736] {
+      width: 549px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden
+    }
+
+    .media-news-list-box li span[data-v-70a7d736] {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      font-size: 12px
+    }
+
+    .page[data-v-70a7d736] {
+      display: inline-block;
+      width: 754px;
+      text-align: center;
+      margin-left: 246px;
+      margin-top: 20px
+    }
+  </style>
+  <style type="text/css">
+    .footer[data-v-069dcb06] {
+      background: #333;
+      height: 240px
+    }
+
+    .footer .warp[data-v-069dcb06] {
+      width: 1280px;
+      margin: 0 auto;
+      background: url() no-repeat;
+      background-size: 260px 115px;
+      background-position: 125px 125px
+    }
+
+    .link[data-v-069dcb06] {
+      background: #444242;
+      height: 24px;
+      text-align: center;
+      font-size: 8px;
+      line-height: 24px;
+      color: #828282
+    }
+
+    .link a[data-v-069dcb06] {
+      color: #828282
+    }
+
+    .foot-title[data-v-069dcb06] {
+      height: 67px;
+      text-align: center
+    }
+
+    .foot-title span[data-v-069dcb06] {
+      display: inline-block;
+      color: #fff;
+      font-size: 12px;
+      line-height: 46px;
+      font-weight: 700;
+      width: 200px;
+      border-bottom: 1px solid #696969;
+      margin-left: 96px;
+      margin-top: 18px;
+      text-align: left;
+      vertical-align: text-bottom
+    }
+
+    .foot-logo[data-v-069dcb06] {
+      width: 88px;
+      vertical-align: super
+    }
+
+    .foot-content[data-v-069dcb06] {
+      font-size: 10px;
+      line-height: 14px;
+      color: #eaeaea
+    }
+
+    .foot-contact[data-v-069dcb06] {
+      display: inline-block;
+      margin-top: 24px;
+      margin-left: 312px;
+      width: 224px;
+      vertical-align: top
+    }
+
+    .foot-qrcode[data-v-069dcb06] {
+      display: inline-block;
+      width: 230px;
+      margin-left: 75px;
+      margin-top: 24px
+    }
+
+    .foot-qrcode img[data-v-069dcb06] {
+      width: 64px;
+      height: 64px
+    }
+
+    .foot-qrcode div[data-v-069dcb06] {
+      display: inline-block;
+      float: left
+    }
+
+    .busi-corp[data-v-069dcb06] {
+      display: inline-block;
+      width: 200px;
+      margin-left: 68px;
+      margin-top: 24px;
+      vertical-align: top
+    }
+
+    .copyright[data-v-069dcb06] {
+      font-size: 11px;
+      line-height: 11px;
+      color: #828282;
+      text-align: center;
+      margin-top: 25px
+    }
+
+    .copyright a[data-v-069dcb06] {
+      color: #828282
+    }
+  </style>
+  <script type="text/javascript" charset="utf-8" async="" src="https://17hualang.com/Upload/image/main/0.1db3335.js"></script>
+  <style type="text/css">
+    .index[data-v-146edf89] {
+      position: relative;
+      margin-top: -72px
+    }
+
+    .banner[data-v-146edf89] {
+      background: #2b2d34;
+      min-height: 580px;
+      background: url(https://dc.jiebaxiaodai.com/Upload/image/main/bg.02757546.png) no-repeat
+    }
+
+    .banner .warp[data-v-146edf89] {
+      width: 1280px;
+      z-index: 2
+    }
+
+    .banner img[data-v-146edf89] {
+      width: auto
+    }
+
+    .banner .t1[data-v-146edf89],
+    .banner .t2[data-v-146edf89],
+    .banner .t3[data-v-146edf89],
+    .banner .t4[data-v-146edf89],
+    .banner .t5[data-v-146edf89],
+    .banner .t6[data-v-146edf89],
+    .banner .t7[data-v-146edf89],
+    .banner .t8[data-v-146edf89] {
+      position: absolute
+    }
+
+    .banner .t1[data-v-146edf89] {
+      top: 167px;
+      left: 140px
+    }
+
+    .banner .t6[data-v-146edf89] {
+      top: 154px;
+      left: 140px;
+      font-size: 44px;
+      color: #fff;
+      line-height: 62px;
+      font-weight: 700
+    }
+
+    .banner .t7[data-v-146edf89] {
+      top: 291px;
+      left: 140px;
+      color: #fff;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: lighter
+    }
+
+    .banner .t2[data-v-146edf89] {
+      top: 363px;
+      left: 140px;
+      cursor: pointer
+    }
+
+    .banner .t3[data-v-146edf89] {
+      top: 451px;
+      left: 140px;
+      cursor: pointer
+    }
+
+    .banner .t4[data-v-146edf89] {
+      top: 363px;
+      left: 404px;
+      background: #fff;
+      padding: 4px 4px 0
+    }
+
+    .banner .t5[data-v-146edf89] {
+      top: 160px;
+      left: 700px
+    }
+
+    .banner .t8[data-v-146edf89] {
+      top: 412px;
+      left: 454px;
+      width: 46.5px;
+      height: 46.5px;
+      padding: 1px;
+      background: #fff;
+      border-radius: 10px
+    }
+
+    .banner .t8 img[data-v-146edf89] {
+      display: block
+    }
+
+    .section[data-v-146edf89] {
+      margin-top: 85px
+    }
+
+    .section .warp[data-v-146edf89] {
+      width: 1200px
+    }
+
+    .swiper[data-v-146edf89] {
+      height: 640px;
+      background: #f7f7f7
+    }
+
+    .swiper .warp[data-v-146edf89] {
+      width: 1280px;
+      overflow: hidden
+    }
+
+    .swiper .swiper-container[data-v-146edf89] {
+      height: inherit;
+      padding-top: 80px;
+      overflow: hidden
+    }
+
+    .swiper .swiper-container[data-v-146edf89]:after {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url(https://17hualang.com/Upload/image/main/mask-left.af460af9.png) no-repeat 0 0;
+      background-size: 100%;
+      width: 140px;
+      height: 640px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1000
+    }
+
+    .swiper .swiper-container[data-v-146edf89]:before {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url(https://17hualang.com/Upload/image/main/mask-right.68edc4d8.png) no-repeat 0 0;
+      background-size: 100%;
+      width: 140px;
+      height: 640px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1000
+    }
+
+    .swiper .swiper-slide div[data-v-146edf89] {
+      margin: 0 auto
+    }
+
+    .swiper .swiper-slide>div[data-v-146edf89] {
+      padding: 67px 0
+    }
+
+    .swiper .swiper-slide>div>div[data-v-146edf89] {
+      width: 360px;
+      height: 400px;
+      margin: 0 auto;
+      border: 1px solid #fff;
+      box-sizing: border-box;
+      background: #fff;
+      box-shadow: 0 4px 24px 0 rgba(0, 0, 0, .08);
+      border-radius: 8px
+    }
+
+    .swiper .swiper-slide .header-icon[data-v-146edf89] {
+      width: 134px;
+      margin: -67px auto 0
+    }
+
+    .swiper .swiper-slide .name[data-v-146edf89] {
+      text-align: center;
+      font-size: 24px;
+      color: #be8c17;
+      letter-spacing: 0;
+      margin: -5px auto 0
+    }
+
+    .swiper .swiper-slide .label[data-v-146edf89] {
+      text-align: center;
+      font-size: 16px;
+      color: #999;
+      letter-spacing: 0;
+      margin: 7px auto 0
+    }
+
+    .swiper .swiper-slide .tag[data-v-146edf89] {
+      width: 24px;
+      margin: 21px auto 12px
+    }
+
+    .swiper .swiper-slide .talk[data-v-146edf89] {
+      width: 280px;
+      font-size: 16px;
+      color: #333;
+      letter-spacing: .3px;
+      margin: 16px auto 0;
+      line-height: 22px
+    }
+
+    .swiper .swiper-button-next[data-v-146edf89],
+    .swiper .swiper-button-prev[data-v-146edf89] {
+      background: none;
+      width: 64px;
+      height: 64px;
+      top: 43%;
+      opacity: 1;
+      z-index: 1100
+    }
+
+    .swiper .swiper-button-prev[data-v-146edf89] {
+      left: 38px;
+      background: url(https://17hualang.com/Upload/image/main/icon-letf.089347cd.png) no-repeat 0 0;
+      background-size: 100%
+    }
+
+    .swiper .swiper-button-next[data-v-146edf89] {
+      right: 38px;
+      background: url(https://17hualang.com/Upload/image/main/icon-right.2a145b02.png) no-repeat 0 0;
+      background-size: 100%
+    }
+
+    .message[data-v-146edf89] {
+      margin: 80px auto 90px
+    }
+
+    .message .title[data-v-146edf89] {
+      font-size: 22px;
+      color: #333;
+      letter-spacing: 0;
+      position: relative;
+      font-weight: 400;
+      margin-top: 0
+    }
+
+    .message .title a[data-v-146edf89] {
+      position: absolute;
+      right: -3px;
+      bottom: 4px;
+      font-size: 14px;
+      color: #999;
+      letter-spacing: 0;
+      vertical-align: bottom;
+      display: inline-block;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAKtJREFUKBVjYKAEGBsb65qYmOg0NDQw4TIHRUJJSekaExOT7pYtW8JCQ0OZsWlCEbx27dp/Kyur658+fdJ5//69lrW19XWQGLJGFA0gCUKaUJwEM2n16tV/5eXlVwGdx/jw4cMwmDiIxqoBWcG/f/9QnIRVA8jDIJNBihUVFVcjG8CIzAGx0RWDnIesBkUDIcUgjSihxMnJqcPMzHzF29v79LRp0/4hm0w2GwC6UFmn9xNcdgAAAABJRU5ErkJggg==) no-repeat 100% 50%;
+      background-size: 12px 12px;
+      padding-right: 12px
+    }
+
+    .message .media-message[data-v-146edf89] {
+      width: 526px
+    }
+
+    .message .media-message .message-txt[data-v-146edf89] {
+      width: 375px
+    }
+
+    .message .company-message[data-v-146edf89] {
+      width: 387px
+    }
+
+    .message .company-message .message-txt[data-v-146edf89] {
+      width: 280px
+    }
+
+    .message .message-list[data-v-146edf89] {
+      font-size: 15px;
+      color: #999;
+      letter-spacing: 0;
+      margin-top: 17px;
+      height: 135px;
+      overflow: hidden
+    }
+
+    .message .message-list .message-txt[data-v-146edf89] {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden
+    }
+
+    .message .message-list li[data-v-146edf89] {
+      line-height: 27px
+    }
+
+    .message .message-list li a[data-v-146edf89] {
+      color: #999
+    }
+
+    .message .line[data-v-146edf89] {
+      border-left: 1px dashed #e8e8e8;
+      height: 121px;
+      width: 0;
+      margin: 58px 43px 0
+    }
+
+    .partner[data-v-146edf89] {
+      margin: 0 auto 100px
+    }
+
+    .partner .title[data-v-146edf89] {
+      font-size: 22px;
+      color: #333;
+      letter-spacing: 0;
+      position: relative;
+      font-weight: 400;
+      margin-top: 0
+    }
+
+    .partner .top-list[data-v-146edf89] {
+      margin-top: 20px;
+      font-size: 0
+    }
+
+    .partner .bottom-list[data-v-146edf89] {
+      margin-left: -14px;
+      font-size: 0;
+      position: relative
+    }
+
+    .partner .bottom-list_name[data-v-146edf89] {
+      position: absolute;
+      font: 700 14px/20px a;
+      font-family: inherit;
+      color: #deb76d
+    }
+
+    .partner .bottom-list_name[data-v-146edf89]:before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 6px;
+      height: 6px;
+      background: #deb76d;
+      border-radius: 50%;
+      margin-right: 6px
+    }
+
+    .partner .bottom-list_name.financial[data-v-146edf89] {
+      top: 20px;
+      left: 14px
+    }
+
+    .partner .bottom-list_name.university[data-v-146edf89] {
+      top: 180px;
+      left: 14px
+    }
+
+    .partner .bottom-list_name.planner[data-v-146edf89] {
+      top: 180px;
+      left: 266px
+    }
+
+    .partner .top-list img[data-v-146edf89] {
+      width: 320px;
+      margin-left: 20px
+    }
+
+    .partner .bottom-list img[data-v-146edf89] {
+      margin-top: 50px;
+      width: 112px;
+      margin-left: 14px
+    }
+  </style>
+</head>
+
+<body>
+  <link href="https://dc.jiebaxiaodai.com/Upload/image/main/main.1db3335a2215e2de29b3.css" rel="stylesheet">
+  <div>
+    <header class="menu-box">
+      <div class="warp">
+          
+        <div class="logo fl"><img src="img/icon.png" alt="">
+    </header>
+    <div class="header-padding"></div>
+    <div data-v-146edf89="" class="index">
+      <div data-v-146edf89="" class="banner" style="min-height: 580px;">
+        <div data-v-146edf89="" class="warp">
+          <!--<img data-v-146edf89="" src="/btn-ios.4f54a9d6.png" alt="" class="t2"> 
+          <img data-v-146edf89="" src="/btn_an.ea2e9193.png" alt="" class="t3">
+          <div data-v-146edf89="" value="" level="H" background="#fff" foreground="#000" class="t4">
+            <canvas height="274" width="274" style="width: 137px; height: 137px;"></canvas>
+          </div> 
+          <img data-v-146edf89=""
+            src="/logo_small.0433d5d0.png" alt="" class="t8"> -->
+          <img data-v-146edf89=""
+            src="https://dc.jiebaxiaodai.com/Upload/image/main/index-phone.6fc5e017.png" alt="" class="t5">
+          <div data-v-146edf89="" class="t6">
+            超级账本<br data-v-146edf89="">财富管家
+          </div>
+          <div data-v-146edf89="" class="t7">
+            各项资产 · 统一管理
+          </div>
+        </div>
+      </div>
+      <section data-v-146edf89="" class="section" style="min-height: 800px;">
+        <div data-v-146edf89="" class="warp">
+          <img data-v-146edf89="" src="img/33.png" alt=""> 
+          <img data-v-146edf89=""
+            src="img/11.png" alt=""> 
+          <img data-v-146edf89=""
+            src="img/22.png" alt="">
+        </div>
+      </section>
+
+      <ol data-v-146edf89="" class="message-list clearfix"></ol>
+    </div>
+  </div>
+  </section>
+  <!-- <section data-v-146edf89="" class="partner">
+    <div data-v-146edf89="" class="warp clearfix">
+      <div data-v-146edf89="" class="title">合作伙伴</div>
+      <div data-v-146edf89="" class="bottom-list">
+        <div data-v-146edf89="" class="bottom-list_name financial">金融机构</div>
+        <div data-v-146edf89="" class="bottom-list_name university">高校</div>
+        <div data-v-146edf89="" class="bottom-list_name planner">理财师机构</div> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_1.73b64606.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_2.b47b57e1.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_3.9e80f12d.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_4.45d8d12a.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_5.a2082b45.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_6.6ec3b99f.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_7.59a42f27.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_8.2a3558df.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_9.1ecb0713.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_10.1d82313a.png" alt=""> 
+        <img data-v-146edf89=""
+          src="https://17hualang.com/Upload/image/main/img_partner_11.10507128.png" alt="">
+      </div>
+    </div>
+  </section> -->
+  <div data-v-069dcb06="" data-v-146edf89="">
+    <footer data-v-069dcb06="" class="footer ">
+      <div data-v-069dcb06="" class="warp">
+        <div data-v-069dcb06="" class="foot-title"><img data-v-069dcb06="" src="img/icon.png"
+            alt="" class="foot-logo"> <span data-v-069dcb06="" style="margin-left: 56px;">客户服务</span> <span
+            data-v-069dcb06="">官方微信</span> <span data-v-069dcb06="">商务合作</span></div>
+        <div data-v-069dcb06="" class="foot-content">
+          <div data-v-069dcb06="" class="foot-contact">
+            <!--<p data-v-069dcb06="">官方QQ群：685763419</p> <br data-v-069dcb06="">-->
+            <p data-v-069dcb06="">客服电话：4009218131</p>
+            <p data-v-069dcb06="">（工作日9:30-18:30）</p>
+          </div>
+          <div data-v-069dcb06="" class="foot-qrcode">
+            <div data-v-069dcb06=""><!--<img data-v-069dcb06="" src="https://17hualang.com/Upload/image/main/img_ewm_under.d6e3d2e8.png"
+                alt=""><br data-v-069dcb06=""> <span data-v-069dcb06="" style="margin-top: 8px;">-->微信公众号:省着花财富管理专家<!--</span>--></div>
+            <!--<div data-v-069dcb06="" style="margin-left: 45px;">
+              <img data-v-069dcb06=""
+                src="https://17hualang.com/Upload/image/main/img_miaomei_under.c566257c.png" alt="">
+              <br data-v-069dcb06=""> 
+              <span
+                data-v-069dcb06="" style="margin-top: 8px;">喵妹微信</span>
+              <br data-v-069dcb06=""> 
+              <span data-v-069dcb06=""
+                style="font-size: 8px; line-height: 11px; color: rgb(130, 130, 130);">工作日：9:30 - 18:30</span>
+            </div>-->
+          </div>
+          <div data-v-069dcb06="" class="busi-corp">
+            林先生 4009218131
+          </div>
+          <div data-v-069dcb06="" class="copyright">Copyright © 2019 - forever 省着花版权所有 <a data-v-069dcb06=""
+              target="_blank" href="http://www.miitbeian.gov.cn/">粤ICP备18070836号</a> 前海香菜信息科技（深圳）有限公司</div>
+        </div>
+      </div>
+    </footer>
+    <div data-v-069dcb06="" class="link"> <a data-v-069dcb06="" href="" target="_blank"></a></div>
+  </div>
+  </div>
+  <div class="floatw" style="display: none;">
+    
+  </div>
+
+</body>
+
+</html>
